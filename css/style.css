@@ -47,7 +47,7 @@
 /* ------------------------ */
 .letter {
   position: relative;
-  background: black;
+  background: #131212;
   flex-grow: 1;
 }
 
