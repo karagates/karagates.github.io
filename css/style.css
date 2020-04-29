@@ -3,10 +3,12 @@
   padding: 0;
   border: 0;
 }
+
 body {
   padding: 1vh;
   background-color: #e5ffde;
 }
+
 #kara,
 #gates,
 #isan,
@@ -47,7 +49,7 @@ body {
 
 .me:hover {
   background-image: url('../kara_headshot.jpg');
-  background-position: top center;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -70,7 +72,7 @@ body {
 
 .horz {
   right: 0;
-  width: 30%;
+  width: 33%;
   height: 2vh;
 }
 
@@ -163,14 +165,19 @@ body {
   margin: 0 auto;
 }
 
-.n>.vert:nth-of-type(1){
+.n>.vert:nth-of-type(1) {
   height: 30%;
   left: 33%;
 }
-.n>.vert:nth-of-type(2){
+
+.n>.vert:nth-of-type(2) {
   bottom: 0;
   right: 33%;
   height: 30%;
+}
+
+.space {
+  width: 6vh;
 }
 
 /* Text */
